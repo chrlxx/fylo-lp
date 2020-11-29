@@ -1,0 +1,488 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #070439;
+  font-family: "Raleway", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 41.5px;
+  margin-bottom: 10px;
+}
+
+header {
+  padding: 10px;
+  display: flex;
+  margin: 30px 5%;
+  align-items: center;
+  color: #585989;
+  justify-content: space-between;
+}
+
+header img {
+  width: auto;
+  height: 30px;
+}
+
+header ul {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul li {
+  cursor: pointer;
+  transition: .5s ease-in-out;
+}
+
+header ul li:hover {
+  color: #3c9f8f;
+}
+
+.info {
+  display: grid;
+  align-items: center;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info section {
+  width: 100%;
+  padding: 7.5%;
+}
+
+.info section form {
+  margin: 10px 0;
+}
+
+.info section form input {
+  outline: 0;
+  padding: 10px;
+  height: 42.5px;
+  border-radius: 3px;
+}
+
+.info section form input:first-child {
+  width: 65%;
+  font-weight: 700;
+  transition: .5s ease-in-out;
+  border: 1px solid #585989;
+}
+
+.info section form input:first-child:hover {
+  border: 1px solid red;
+}
+
+.info section form input:last-child {
+  border: 0;
+  width: 30%;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  background-color: #3065f8;
+}
+
+.info section form input:last-child:hover {
+  transition: 0.5s ease-in-out;
+  background-color: #274fbe;
+}
+
+.info img {
+  width: 100%;
+}
+
+.curved {
+  background-image: url("../images/bg-curve-desktop.svg");
+  height: 80px;
+}
+
+main {
+  padding: 5%;
+  display: grid;
+  align-items: center;
+  grid-gap: 20px;
+  gap: 20px;
+  background-color: #f6f6fe;
+  grid-template-columns: 1.3fr 1fr;
+}
+
+main section {
+  padding: 2.5%;
+  width: 100%;
+}
+
+main section h1 {
+  margin-bottom: 25px;
+}
+
+main section p {
+  margin: 15px 0;
+  color: #070439;
+}
+
+main section > ul {
+  width: 190px;
+  display: flex;
+  align-items: center;
+  color: #3c9f8f;
+  border-bottom: 1px solid #3c9f8f;
+}
+
+main section > ul li:first-child {
+  margin-right: 7.5px;
+}
+
+main section > ul li:last-child {
+  padding-top: 3%;
+}
+
+main section aside {
+  padding: 7.5%;
+  margin-top: 40px;
+  max-width: 400px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.576);
+  box-shadow: 0px 5px 30px -20px rgba(0, 0, 0, 0.405);
+}
+
+main section aside > img {
+  width: 20px;
+  height: 20px;
+}
+
+main section aside > p {
+  font-size: 14px;
+  margin: 2.5px 0;
+  margin-bottom: 10px;
+  font-family: "Raleway", sans-serif;
+}
+
+main section aside > ul {
+  display: flex;
+  font-size: 14px;
+  color: #070439;
+}
+
+main section aside > ul > li > img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+main section aside > ul > ul {
+  margin-left: 7.5px;
+}
+
+main section aside > ul > ul li:first-child {
+  font-weight: 700;
+}
+
+main section aside > ul > ul li:last-child {
+  font-size: 12px;
+}
+
+main img {
+  width: 100%;
+}
+
+.get-access {
+  display: grid;
+  color: #fff;
+  padding: 7.5% 5%;
+  align-items: center;
+  grid-gap: 20px;
+  gap: 20px;
+  grid-template-columns: 1.3fr 1fr;
+  background-color: #585989;
+}
+
+.get-access section h2 {
+  color: #fff;
+  line-height: 41.5px;
+  margin-bottom: 20px;
+}
+
+.get-access section p {
+  padding: 0 20% 0 0;
+  line-height: 25.5px;
+}
+
+.get-access form input {
+  outline: 0;
+  padding: 10px;
+  height: 45.5px;
+  margin: 8.5px 0;
+  border-radius: 3px;
+}
+
+.get-access form input:first-child {
+  width: 90%;
+  font-weight: 700;
+  border: 1px solid #585989;
+}
+
+.get-access form input:first-child:hover {
+  border: 1px solid red;
+  transition: .5s ease-in-out;
+}
+
+.get-access form input:last-child {
+  border: 0;
+  width: 40%;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  background-color: #3065f8;
+}
+
+.get-access form input:last-child:hover {
+  transition: 0.5s ease-in-out;
+  background-color: #274fbe;
+}
+
+footer {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #070439;
+  padding: 100px 5.5% 0;
+}
+
+footer > img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(1%) hue-rotate(24deg) brightness(112%) contrast(101%);
+  margin-bottom: 30px;
+  width: 125px;
+  height: auto;
+}
+
+footer div {
+  display: grid;
+  grid-gap: 0 7.5%;
+  margin-bottom: 50px;
+  grid-template-columns: 1.5fr .7fr .7fr 1fr;
+}
+
+footer div section > ul {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+footer div section > ul li {
+  cursor: pointer;
+}
+
+footer div section > ul li:hover {
+  color: #3c9f8f;
+  text-decoration: underline;
+  transition: .5s ease-in-out;
+}
+
+footer div section > ul li:first-child {
+  margin-right: 15px;
+}
+
+footer div section > ul li:first-child img {
+  width: 20px;
+  height: auto;
+}
+
+footer div section > li {
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+footer div section > li:hover {
+  color: #3c9f8f;
+  text-decoration: underline;
+  transition: .5s ease-in-out;
+}
+
+footer div .icons {
+  display: flex;
+  margin: 0 auto;
+}
+
+footer div .icons i {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #fff;
+}
+
+footer div .icons i:hover {
+  color: #3c9f8f;
+  transition: 0.7s ease-in-out;
+  border: 1px solid #3c9f8f;
+}
+
+footer .attribution {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 769px) and (max-width: 890px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  header {
+    margin: 30px 3%;
+  }
+  header ul {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    grid-template-columns: 1fr;
+  }
+  .info section {
+    order: 2;
+    text-align: center;
+  }
+  .info section h1 {
+    margin-bottom: 15px;
+  }
+  .info section p {
+    margin-bottom: 10px;
+    line-height: 25px;
+  }
+  .info section form {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .info section form input {
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  .info section form input:first-child {
+    font-weight: 400;
+    margin-bottom: 10px;
+    border: 1px solid #070439;
+  }
+  .info section form input:first-child, .info section form input:last-child {
+    width: 95%;
+  }
+  .info img {
+    order: 1;
+  }
+  .curved {
+    background-image: url("../images/bg-curve-mobile.svg");
+    background-size: cover;
+    height: 60px;
+  }
+  main {
+    grid-template-columns: 1fr;
+  }
+  main section {
+    order: 2;
+  }
+  main section h1 {
+    text-align: center;
+  }
+  main section > ul {
+    margin: 30px auto;
+  }
+  main section aside {
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+  main img {
+    order: 1;
+  }
+  .get-access {
+    padding: 7.5% 10%;
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+  .get-access section > p {
+    padding: 5%;
+  }
+  .get-access form input {
+    margin: 8.5px auto;
+  }
+  .get-access form input:first-child, .get-access form input:last-child {
+    width: 97.5%;
+  }
+  footer {
+    padding: 65px 5.5% 0;
+  }
+  footer div {
+    grid-template-columns: 1fr;
+  }
+  footer div section {
+    margin-bottom: 25px;
+  }
+  footer div .icons {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  header ul {
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header {
+    padding: 10px 5px;
+  }
+  header img {
+    height: 25px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  body {
+    font-size: 17px;
+  }
+  header {
+    margin: 30px 1.5%;
+    padding: 10px 0;
+  }
+  header img {
+    height: 25px;
+  }
+  header ul {
+    width: 60%;
+  }
+}

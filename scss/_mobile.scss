@@ -1,0 +1,163 @@
+@media screen and (min-width: 769px) and (max-width: 890px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    header {
+        margin: 30px 3%;
+
+        ul {
+            width: 40%;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .info {
+        grid-template-columns: 1fr;
+
+        section {
+            order: 2;
+            text-align: center;
+
+            h1 {
+                margin-bottom: 15px;
+            }
+
+            p {
+                margin-bottom: 10px;
+                line-height: 25px;
+            }
+
+            form {
+                display: grid;
+                grid-template-columns: 1fr;
+
+                input {
+                    margin: 0 auto;
+                    padding: 10px 20px;
+                    
+                    &:first-child {
+                        font-weight: 400;
+                        margin-bottom: 10px;
+                        border: 1px solid $dark-blue;
+                    }
+                    &:first-child, &:last-child {
+                        width: 95%;
+                    }
+                }
+            }
+        }
+
+        img {
+            order: 1;
+        }
+    }
+
+    .curved {
+        background-image: url('../images/bg-curve-mobile.svg');
+        // background-position: center;
+        background-size: cover;
+        height: 60px;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+
+        section {
+            order: 2;
+
+            h1 {
+                text-align: center;
+            }
+
+            & > ul {
+                margin: 30px auto;
+            }
+
+            aside {
+                margin: 0 auto;
+                margin-top: 40px;
+            }
+        }
+
+        img {
+            order: 1;
+        }
+    }
+
+    .get-access {
+        padding: 7.5% 10%;
+        text-align: center;
+        grid-template-columns: 1fr;
+
+        section > p {
+            padding: 5%;
+        }
+
+        form {
+            input {
+                margin: 8.5px auto;
+
+                &:first-child, &:last-child {
+                    width: 97.5%;
+                }
+            }
+        }
+    }
+
+    footer {
+        padding: 65px 5.5% 0;
+        div {
+            grid-template-columns: 1fr;
+
+            section {
+                margin-bottom: 25px;
+            }
+
+            .icons {
+                width: fit-content;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 510px) {
+    header {
+        ul {
+            width: 55%;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        padding: 10px 5px;
+
+        img {
+            height: 25px;
+        }
+    }
+}
+
+
+@media screen and (max-width: 370px) {
+    body {
+        font-size: 17px;
+    }
+
+    header {
+        margin: 30px 1.5%;
+        padding: 10px 0;
+
+        img {
+            height: 25px;
+        }
+        
+        ul {
+            width: 60%;
+        }
+    }
+}
