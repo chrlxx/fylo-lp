@@ -149,7 +149,6 @@
     }
 
     header {
-        margin: 30px 1.5%;
         padding: 10px 0;
 
         img {
@@ -157,7 +156,9 @@
         }
         
         ul {
-            width: 60%;
+            font-size: 15px;
+            font-weight: 700;
+            width: 50%;
         }
     }
 }

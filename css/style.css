@@ -476,13 +476,14 @@ footer .attribution a {
     font-size: 17px;
   }
   header {
-    margin: 30px 1.5%;
     padding: 10px 0;
   }
   header img {
     height: 25px;
   }
   header ul {
-    width: 60%;
+    font-size: 15px;
+    font-weight: 700;
+    width: 50%;
   }
 }
